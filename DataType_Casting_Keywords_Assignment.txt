@@ -1,0 +1,61 @@
+1. What are primitive data types in java?
+Ans: Primitive data types are already defined in java.
+byte
+short
+char
+int
+long
+float
+double
+boolean
+are primitive data types in java
+-----------------------------------------------
+2. What are the identifiers in Java?
+Ans: Identifiers in Java are the names that can be given to variables, classes, methods, interfaces, enums etc. 
+The allowed characters in java identifiers are
+a to z, A to Z,0 to 9,_,$
+-----------------------------------------------
+3. What is final class in Java?
+Ans: The final class is a class that is declared with the final keyword. The main purpose of using a class being declared as final is to prevent the class from being subclassed. If a class is marked as final then no class can inherit any feature from the final class.
+-----------------------------------------------
+4. What are the two ways to make a class final?
+Ans: 
+1. Declaring a Class as final
+2. By making all the methods inside the class as final
+---
+--------------------------------------------
+5. Can we create an instance of final class in another class?
+Ans: Yes
+---------------------------------------------
+6. What is Volatile keyword used for ?
+Ans: The volatile keyword in Java is used to declare a variable as "volatile." When a variable is declared as volatile, it indicates to the Java compiler and runtime that the variable's value may be changed by multiple threads simultaneously. This keyword is primarily used for multithreading.
+----------------------------------------------
+7. What is the use of Transient Keyword ?
+Ans: The primary role of the transient keyword comes in cases of serialization. The transient modifier can be applied to field members of a class to turn off serialization on these specific members. 
+------------------------------------------------
+8. What are the types of casting?
+Ans:
+Implicit casting, also known as widening or automatic casting, occurs when you convert a value from a smaller data type to a larger data type without the risk of data loss. 
+
+Explicit casting, also known as narrowing or manual casting, is necessary when you want to convert a value from a larger data type to a smaller data type, which may result in data loss or loss of precision. This type of casting requires the use of casting operators, and you explicitly specify the target data type in parentheses.
+-------------------------------------------------
+9. What is boxing and unboxing?
+Ans:
+Boxing refers to the process of converting a primitive data type into its corresponding wrapper class object. For example, converting an int into an Integer, a double into a Double, etc.
+
+e.g: int p= 42;
+Integer b= p;// Boxing (autoboxing)
+
+Unboxing is the reverse process of boxing. It involves converting a wrapper class object back to its primitive data type.
+
+e.g: Integer b= 42;
+int p= b; // Unboxing (auto-unboxing)
+--------------------------------------------
+10. What is the difference between keywords, identifiers and literals in java ?
+Ans: 
+Keywords are reserved words in the Java language, and they have specific meanings and functions assigned by the language itself.
+
+Identifiers are names given to various program elements, such as variables, classes, methods, and packages, to uniquely identify them within your Java code.
+
+Literals are specific values that represent themselves directly in code. They are used to initialize variables or pass values as arguments to methods.
+-------------------------------------------------
